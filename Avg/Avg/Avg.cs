@@ -1,0 +1,27 @@
+﻿using Work;
+
+Student student1 = new Student();
+student1.name = "Beer";
+student1.weight = 60.8f;
+
+Student student2 = new Student();
+student2.name = "Mark";
+student2.weight = 73.0f;
+
+Student student3 = new Student();
+student3.name = "Phanu";
+student3.weight = 65.4f;
+
+Student student4 = new Student();
+student4.name = "Tira";
+student4.weight = 70.2f;
+
+Student student5 = new Student();
+student5.name = "Na";
+student5.weight = 40.5f;
+
+float avgweight = (student1.weight + student5.weight + student3.weight + student4.weight + student5.weight) / 5;
+Console.WriteLine("ค่าเฉลี่ยน้ำหนักของนักศึกษาทั้งหมด ==> " + " " + avgweight);
+Console.WriteLine("ชื่อและน้ำหนักของคนที่มีน้ำหนักมากที่สุด ==> " + " " + student4.name + " " + student4.weight);
+Console.WriteLine("ชื่อและน้ำหนักของคนที่มีน้ำหนักน้อยทีสุด ==> " + " " + student2.name + " " + student2.weight);
+Console.WriteLine("ชื่อ&รหัส ของผู้พัฒนาโปรแกรม ==> " + " " + "มหัคฆพันธ์ ปลั่งกลาง \n 653450296-6");
